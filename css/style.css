@@ -47,27 +47,6 @@ h1{
     font-size:30px;
 }
 
-/*Music*/
-#music{
-    text-align:center;
-    font-size:80px;
-}
-
-#playbtn, #pausebtn{
-    background-color:#800000;
-    color:white;
-    padding:10px;
-    border-radius:10px;
-    border:none;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:30px;
-    font-size:20px;
-}
-
-.indicator{
-    box-shadow:12px 12px 24px #752c2c;
-}
 
 /*Background Colour*/
 h3{
