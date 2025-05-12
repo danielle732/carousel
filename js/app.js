@@ -109,12 +109,9 @@ function show() {
   }
 }
 
-let paint =
-  /*"./img/Covered in Colour.JPG";*/ "file:///C:/Users/danie/Desktop/Grade%2010%20Computer%20Science/engDanielle%20javascript/img/Covered%20in%20Colour.JPG";
-let waterfall =
-  /*"./img/Waterfall.jpg";*/ "file:///C:/Users/danie/Desktop/Grade%2010%20Computer%20Science/engDanielle%20javascript/img/Waterfall.jpg";
-let book =
-  /*"./img/Read Between the Lines.jpg";*/ "file:///C:/Users/danie/Desktop/Grade%2010%20Computer%20Science/engDanielle%20javascript/img/Read%20Between%20the%20Lines.jpg";
+let paint = "./img/Covered in Colour.JPG"; 
+let waterfall ="./img/Waterfall.jpg"; 
+let book = "./img/Read Between the Lines.jpg";
 
 function changeImg() {
   if (img.src == paint) {
