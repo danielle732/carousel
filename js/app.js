@@ -33,21 +33,6 @@ window.onload = function type() {
   }
 };
 
-//Music
-let audio = document.getElementById("audio");
-let playbtn = document.getElementById("playbtn");
-let pausebtn = document.getElementById("pausebtn");
-function play() {
-  audio.play();
-  playbtn.classList.add("indicator");
-  pausebtn.classList.remove("indicator");
-}
-
-function pause() {
-  audio.pause();
-  pausebtn.classList.add("indicator");
-  playbtn.classList.remove("indicator");
-}
 
 //Change Background Colour
 function changeBackground() {
