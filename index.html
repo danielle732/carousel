@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <!--Cursor Follower-->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!--Banner-->
+    <h1 id="banner"></h1> 
+    <p id="title">to my photo gallery</p>
+    
+    <!--Audio-->
+    <audio  id="audio">
+        <source src="audio/Art Gallery Audio.mp3" type="audio/mp3">
+    </audio>
+    <div id="music">
+        <button id="playbtn" onclick="play();">Play Music</button>
+        <button  id="pausebtn" onclick="pause();">Pause Music</button>
+    </div>
+    
+     <!--Change Background-->
+     <form id="background">
+         <h3>Choose your background colour</h3>
+         <input type="radio" id= radio name="colour" onchange="changeBackground()" value="sage">
+         <label for="sage">Sage</label><br>
+         <input type="radio" id= radio name="colour" onchange="changeBackground()" value="blue-grey">
+         <label for="blue-grey">Blue-grey</label><br>
+         <input type="radio" id= radio name="colour" onchange="changeBackground()" value="neutral">
+         <label for="neutral">Neutral</label><br>
+     </form>
+
+    <!--Carousel-->
+    <button id="prev" onclick="previous()">❮</button>
+    <button id="next" onclick="next()">❯</button>
+    <img src="img/Covered in Colour.JPG" id ="img">
+
+    <!--Caption-->
+    <p id="caption">Covered in Colour</p>
+
+    <!--Active Dots-->
+    <div id="dotbuttons">
+        <button  class="dot active" onclick="img1()"></button >
+        <button class="dot" onclick="img2()"></button >
+        <button  class="dot" onclick="img3()"></button >
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>
